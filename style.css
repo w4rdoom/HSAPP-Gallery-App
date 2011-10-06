@@ -1,0 +1,15 @@
+html, .x-fullscreen {
+  background-color: #fff;
+}
+.painting {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 0;
+}
+
+
+/* Album_1 URL's Laden und mit Hilfe von "http://src.sencha.io/" vor der URL ein automatisches Anpassen der Bilder für verschiedene Devices realiseren */
+.picture_1{ background-image: url('http://src.sencha.io/http://www.verkehrsrundschau.de/fm/4494/620.830879.jpg'); }
+.picture_2{ background-image: url('http://src.sencha.io/http://www.wa.de/bilder/2011/04/13/1203231/1136860929-280_008_2547548_rh22f10172.9.jpg'); }
+.picture_3{ background-image: url('http://src.sencha.io/http://www.mrn-news.de/files/news_images/46321.jpg');}
