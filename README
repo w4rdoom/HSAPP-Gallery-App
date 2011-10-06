@@ -1,0 +1,28 @@
+---------
+|README |
+---------
+
+Neue Bilder Ordner hinzufuegen:
+--------------------------------
+1. Neuen Ordner im Ordner "Ordner" erstellen
+2. View.js aus Beispielordnern kopieren und in neuen Ordner einfuegen
+3. View.js öffnen und gegebenfalls Parameter : "{ cls: 'painting picture' }," kopieren um mehr Bilder in den Ordnern anzuzugeigen.
+4. Index.html im Stammordner editieren und Ordnerpfad anpassen. (in der index.html nach "<script type="text/javascript" src="ordner/Album_1_Immatrikulationsfeier_2009/view.js"></script>" suchen und Ordnerpfad anpassen.)
+5. In der style.css die URL zu den verschiedenen Bildern hinzufuegen. "http://src.sencha.io/" vor der URL bewirk das die Bilder an die verschiedenen Größen der gewünschten devices angepasst werden.
+6. in der app.js folgende Stellen editieren/anpassen: 
+
+hsapp.stores.mainstore_data = {
+    text: 'Ordner',
+    items: [
+        
+	{
+		text: "Album_1 Immatrikulationsfeier 2009", -> Album Namen anpassen!
+		leaf: true
+	},
+	    ]
+};
+
+"case "Album_1 Immatrikulationsfeier 2009" : detailCard = hsapp.views.Gallery1View; break;" -> den Album Namen editen und anpassen der aufgerufen werden soll
+
+7. Fertig -> index.html aufrufen und überprüfen ob alles einwandfrei funktioniert.
+
