@@ -37,3 +37,22 @@ hsapp.stores.mainstore = new Ext.data.TreeStore({
         }
     }
 });
+
+hsapp.views.Viewport = Ext.extend(Ext.NestedList, {
+    fullscreen: true,
+    title: 'SRH HS App Modul: Gallery',
+    store: hsapp.stores.mainstore,
+    getDetailCard: function(item, parent) {
+        var itemData =  item.attributes.record.data;
+        var btnText  = "Back";
+        if (item.parent)
+            btnText = parent.attributes.record.data.text;
+        this.backButton.setText(btnText);    
+        switch(itemData.text)
+        {
+    case "Album_1 Immatrikulationsfeier 2009" : detailCard = hsapp.views.Gallery1View; break;
+	  }
+    
+        return detailCard;
+    }
+});
