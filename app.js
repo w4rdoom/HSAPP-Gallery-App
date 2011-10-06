@@ -1,3 +1,4 @@
+// Applikation aufrufen
 Ext.regApplication({
     name: 'hsapp',
     launch: function() {
@@ -11,18 +12,57 @@ Ext.regApplication({
     }
 });
 
+// Ordnerstruktur - Liste
 hsapp.stores.mainstore_data = {
-    text: 'Ordner',
+    text: 'ordner',
     items: [
         
 	{
 		text: "Album_1 Immatrikulationsfeier 2009", 
 		leaf: true
 	},
-	    ]
+
+	
+	{
+		text: "Album_2 Immatrikulationsfeier 2010", 
+		leaf: true
+	},
+
+	
+	{
+		text: "Album_3 Immatrikulationsfeier 2011", 
+		leaf: true
+	},
+
+	
+	{
+		text: "Album_4 Bachelorabschlussparty 2011", 
+		leaf: true
+	},
+
+	
+	{
+		text: "Album_5 SRH-Sommerfest 2011", 
+		leaf: true
+	},
+
+	
+	{
+		text: "Album_6 SRH-Sommerfest 2010", 
+		leaf: true
+	},
+
+	
+	{
+		text: "Album_7 SHR-Messe 2008", 
+		leaf: true
+	},
+
+	
+    ]
 };
 
-	Ext.regModel('hsapp.stores.mainstore_model', {
+Ext.regModel('hsapp.stores.mainstore_model', {
     fields: [{name: 'text', type: 'string'}]
 });
 
@@ -50,8 +90,16 @@ hsapp.views.Viewport = Ext.extend(Ext.NestedList, {
         this.backButton.setText(btnText);    
         switch(itemData.text)
         {
+	// Ordner registrieren und buttons zuweisen
     case "Album_1 Immatrikulationsfeier 2009" : detailCard = hsapp.views.Gallery1View; break;
-	  }
+	case "Album_2 Immatrikulationsfeier 2010" : detailCard = hsapp.views.Gallery2View; break;
+	case "Album_3 Immatrikulationsfeier 2011" : detailCard = hsapp.views.Gallery3View; break;
+	case "Album_4 Bachelorabschlussparty 2011" : detailCard = hsapp.views.Gallery4View; break;
+	case "Album_5 SRH-Sommerfest 2011" : detailCard = hsapp.views.Gallery5View; break;
+	case "Album_6 SRH-Sommerfest 2010" : detailCard = hsapp.views.Gallery6View; break;
+	case "Album_7 SHR-Messe 2008" : detailCard = hsapp.views.Gallery7View; break;
+	
+        }
     
         return detailCard;
     }
