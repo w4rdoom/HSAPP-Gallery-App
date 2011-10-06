@@ -9,7 +9,38 @@ html, .x-fullscreen {
 }
 
 
-/* Album_1 URL's Laden und mit Hilfe von "http://src.sencha.io/" vor der URL ein automatisches Anpassen der Bilder für verschiedene Devices realiseren */
+/* Album_1 */
 .picture_1{ background-image: url('http://src.sencha.io/http://www.verkehrsrundschau.de/fm/4494/620.830879.jpg'); }
 .picture_2{ background-image: url('http://src.sencha.io/http://www.wa.de/bilder/2011/04/13/1203231/1136860929-280_008_2547548_rh22f10172.9.jpg'); }
 .picture_3{ background-image: url('http://src.sencha.io/http://www.mrn-news.de/files/news_images/46321.jpg');}
+
+/* Album_2 */
+.picture_4{ background-image: url('http://src.sencha.io/http://www.igh.hd.bw.schule.de/joomla/images/berufsorientierung/projekte/srh_1_11.jpg'); }
+.picture_5{ background-image: url('http://src.sencha.io/http://www.srh.de/fileadmin/srh/holding/press/images/pressemitteilungen/PM-110614-Qualitaetspreis-SRH.jpg'); }
+.picture_6{ background-image: url('http://src.sencha.io/http://www.catering-guide-rhein-neckar.de/uploads/tx_cglibrary/seminarzentrum-srh-gallery-6.jpg');}
+
+/* Album_3 */
+.picture_7 { background-image: url('http://src.sencha.io/http://www.presseanzeiger.de/pa_bilder/326065-1_org.jpg'); }
+.picture_8{ background-image: url('http://src.sencha.io/http://www.logo-ausbildung.de/static/logopaedieschulen/media/53/bilderstrecke/Das_Team_der_SRH_Bonn.jpg'); }
+.picture_9{ background-image: url('http://src.sencha.io/http://www.klinikum.uni-heidelberg.de/uploads/pics/Kooperation_SRH_Gruppe.jpg'); }
+
+/* Album_4 */
+.picture_10{ background-image: url('http://src.sencha.io/http://campus.fh-heidelberg.de/wp-content/uploads/2011/08/DSC_4666.jpg'); }
+.picture_11{ background-image: url('http://src.sencha.io/http://campus.fh-heidelberg.de/wp-content/uploads/2011/08/DSC_1735.jpg'); }
+.picture_12{ background-image: url('http://src.sencha.io/http://campus.fh-heidelberg.de/wp-content/uploads/2011/08/DSC_6899.jpg');}
+
+/* Album_5 */
+.picture_13{ background-image: url('http://src.sencha.io/http://campus.fh-heidelberg.de/wp-content/uploads/2011/08/DSC_4261.jpg'); }
+.picture_14{ background-image: url('http://src.sencha.io/http://www.firmenpresse.de/adpics/376071.jpg'); }
+.picture_15{ background-image: url('http://src.sencha.io/http://www.igh.hd.bw.schule.de/joomla/images/berufsorientierung/projekte/srh_2_11.jpg');}
+
+/* Album_6 */
+.picture_16{ background-image: url('http://src.sencha.io/http://campus.fh-heidelberg.de/wp-content/uploads/2011/08/DSC_8555.jpg'); }
+.picture_17{ background-image: url('http://src.sencha.io/http://campus.fh-heidelberg.de/wp-content/uploads/2011/08/DSC_8418.jpg'); }
+.picture_18{ background-image: url('http://src.sencha.io/http://www.absolut-karriere.de/veranstaltungen/2011-01-18/images/workshop-srh.jpg');}
+
+/* Album_7 */
+.picture_19{ background-image: url('http://src.sencha.io/http://img.wikio-experts.com/800x600/0/03/32/00/2011-07/SRH-Fachhochschule-Heidelberg.jpg'); }
+.picture_20{ background-image: url('http://src.sencha.io/http://www.igh.hd.bw.schule.de/joomla/images/berufsorientierung/projekte/srh_1_11.jpg'); }
+.picture_21{ background-image: url('http://src.sencha.io/http://farm4.static.flickr.com/3531/3213280086_8bcbc7074e.jpg');}
+
